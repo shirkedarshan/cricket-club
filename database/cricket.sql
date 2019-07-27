@@ -124,7 +124,7 @@ CREATE TABLE `fb_inbox` (
 
 INSERT INTO `fb_inbox` (`fbinbox_id`, `user_id`, `fb_id`, `fb_descp`, `fb_reply`) VALUES
 (3, 2, 19, 'feedback', 'problem solved'),
-(4, 3, 1, 'taklya darshan:)', 'mahitye mala');
+(4, 3, 1, 'Hey', 'Not a place to chat');
 
 -- --------------------------------------------------------
 
@@ -144,8 +144,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`fb_id`, `user_name`, `user_id`, `fb_descp`) VALUES
-(1, 'Darshan', 3, 'taklya darshan:)'),
-(2, 'Darshan', 3, 'guthhhhi');
+(1, 'Darshan', 3, 'Hello');
 
 -- --------------------------------------------------------
 
