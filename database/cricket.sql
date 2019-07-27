@@ -239,11 +239,11 @@ CREATE TABLE `tbl_users` (
 --
 
 INSERT INTO `tbl_users` (`user_id`, `name`, `email`, `pwd`, `admin`) VALUES
-(1, 'Adarsh', 'singhadarsh0104@gmail.com', 'adarsh123', 0),
-(2, 'Admin', 'a@gmail.com', 'a', 1),
-(3, 'Darshan', 'd@gmail.com', 'd', 0),
-(5, 'Priya', 'avapriyagan@gmail.com', '123456', 0),
-(9, 'test', 'd@gmail.com', '123456', 0);
+(1, 'Adarsh', 'adarsh@gmail.com', 'abcd123', 0),
+(2, 'Admin', 'a@gmail.com', 'abcd123', 1),
+(3, 'Darshan', 'd@gmail.com', 'abcd123', 0),
+(5, 'Priya', 'priya@gmail.com', 'abcd123', 0),
+(9, 'test', 'd@gmail.com', 'abcd123', 0);
 
 -- --------------------------------------------------------
 
